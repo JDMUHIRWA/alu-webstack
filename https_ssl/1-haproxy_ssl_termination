@@ -26,5 +26,5 @@ http-request redirect code 301 scheme https unless { ssl_fc }
 backend shiftafrica
         mode http
         balance roundrobin
-        server 5779-web-01 54.147.175.242:80 check
-        server 5779-web-02 54.242.59.215:80 check
+        server 6222-web-01 54.147.175.242:80 check
+        server 6222-web-02 54.242.59.215:80 check
