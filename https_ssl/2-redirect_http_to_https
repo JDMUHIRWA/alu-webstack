@@ -24,5 +24,5 @@ frontend www.shiftafrica.tech
 backend shiftafrica
         mode http
         balance roundrobin
-        server 5779-web-01 54.147.175.242:80 check
-        server 5779-web-02 54.242.59.215:80 check
+        server 5779-web-01 18.215.144.44:80 check
+        server 5779-web-02 54.90.99.166:80 check
